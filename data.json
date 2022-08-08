@@ -1,0 +1,68 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "Jaką drogę trzeba przejść, by zostać programistą (od zera)",
+            "description": "W czasach nowoczesnych technologii i wszechobecnej automatyzacji wiele osób decyduje się na naukę programowania w celu utrzymania się na rynku pracy lub osiągnięcia wyższych dochodów. Niestety spora część z nich nie jest przygotowana na to co czeka je po drodze, a inna część nie jest pewna, od czego zacząć.",
+            "authorId": 2,
+            "categoriesId": [1, 2],
+            "price": 0
+        },
+        {
+            "id": 2,
+            "title": "HTML i CSS: Podstawy",
+            "description": "Podstawowa znajomość HTML-a i CSS-a jest niezbędna do rozpoczęcia nauki programowania w JavaScript. Dlatego poznamy solidne podstawy semantycznego kodu HTML, który jest niezbędny w prawidłowym budowania struktury strony internetowej.",
+            "authorId": 1,
+            "categoriesId": [1],
+            "price": 69
+        },
+        {
+            "id": 3,
+            "title": "HTML i CSS: Responsywność",
+            "description": "Obecnie ruch na stronach internetowych w większości generują urządzenia mobilne. Dla wybranych witryn wspomniana miara może sięgać nawet 90%. Dlatego nauka RWD (ang. Responsive Web Design) powinna być dla Ciebie priorytetem.",
+            "authorId": 1,
+            "categoriesId": [1],
+            "price": 69
+        },
+        {
+            "id": 4,
+            "title": "JavaScript: Podstawy",
+            "description": "Znasz już HTML i CSS? Chcesz zrobić następny krok? Chcesz poznać zmienne, typy danych - tablice, obiekty, operatory, instrukcje warunkowe, funkcje, pętle for czy while, konstruktory itd.? Ten materiał pozwoli Ci poznać teorię JavaScript wraz z praktycznymi przykładami, które potem będziesz mógł wykorzystać w dalszej nauce.",
+            "authorId": 1,
+            "categoriesId": [2],
+            "price": 69
+        },
+        {
+            "id": 5,
+            "title": "Kurs JavaScript od podstaw",
+            "description": "Jeśli nie wiesz jakich tematów się uczyć, aby nie marnować czasu na elementy niepotrzebne, to znajdziesz odpowiedź w tym kursie. Ta seria e-booków zawiera zagadnienia dla osób początkujących takie jak HTML i CSS oraz bardziej zaawansowane z JavaScript jak np. obsługa formularzy czy API. Docelowo będziesz potrafił tworzyć rozbudowane strony internetowe!",
+            "authorId": 1,
+            "categoriesId": [1, 2],
+            "price": 499
+        }
+    ],
+    "authors": [
+        {
+            "id": 1,
+            "name": "Mateusz Bogolubow",
+            "description": "Programista i mentor w DevMentor.pl"
+        },
+        {
+            "id": 2,
+            "name": "Mateusz Choma",
+            "description": "Senior Software Engineer, mentor w CodeRoad.pl"
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "HTML i CSS",
+            "description": "Choć ani HTML, ani CSS nie są uznawane za języki programowania to mają kilka cech wspólnych, które pozwalają sprawdzić czy pisanie kodu daje Ci satysfakcję."
+        },
+        {
+            "id": 2,
+            "name": "JavaScript",
+            "description": "Chcesz zostać programistą front-end i pisać zaawansowane aplikacje internetowe (programy)? Zacznij od JavaScriptu!"
+        }
+    ]
+}
