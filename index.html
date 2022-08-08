@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>JSON Server na przykładzie sklepu internetowego</title>
+    </head>
+    <body>
+        <main class="shop">
+            <div class="shop__filter">
+                <form class="shop__searchForm" action="">
+                    <label for="keyword">Słowo kluczowe: </label>
+                    <input name="keyword" type="text" />
+                    <button type="submit">Szukaj</button>
+                </form>
+
+                <label for="authors">Autor: </label>
+                <select
+                    class="shop__authorsList"
+                    name="authors"
+                    id="authors"
+                ></select>
+
+                <form class="shop__priceForm" action="">
+                    <label for="pricing">Cena: </label>
+                    <input
+                        name="min"
+                        type="number"
+                        value="0"
+                        min="0"
+                        max="500"
+                    />
+                    <span>-</span>
+                    <input
+                        name="max"
+                        type="number"
+                        value="500"
+                        min="0"
+                        max="500"
+                    />
+
+                    <fieldset class="shop__fieldset" id="sorting">
+                        <legend>Sortowanie</legend>
+                        <input
+                            id="asc"
+                            name="sorting"
+                            type="radio"
+                            value="asc"
+                            checked
+                        />
+                        <label for="asc">rosnąco </label>
+                        <input
+                            id="desc"
+                            name="sorting"
+                            type="radio"
+                            value="desc"
+                        />
+                        <label for="desc">malejąco </label>
+                    </fieldset>
+
+                    <button type="submit">Szukaj</button>
+                </form>
+            </div>
+
+            <div class="shop__container"></div>
+        </main>
+        <script src="app.js"></script>
+    </body>
+</html>
