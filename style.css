@@ -1,0 +1,21 @@
+.shop__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+}
+
+.shop__container article {
+    border: 2px solid #000;
+    max-width: 300px;
+    padding: 10px;
+}
+
+.shop__filter, .shop__searchForm, .shop__authorsList, .shop__priceForm {
+    margin-bottom: 30px;
+}
+
+.shop__fieldset {
+    display: inline;
+    width: 200px;
+}
